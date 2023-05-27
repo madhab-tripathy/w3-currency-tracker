@@ -30,9 +30,9 @@ body{
     color: #fff;
 }
 .btn{
-    width: 200px;
+    width: 160px;
     cursor: pointer;
-    padding:10px;
+    padding:10px 8px;
     outline:none;
     color: #fff;
     background-color: transparent;
@@ -81,23 +81,23 @@ tbody tr td{
 tbody tr{
     border-bottom: 1px solid #fff;
 }
-@media screen and (max-width:1030px) {
+@media screen and (max-width:1155px) {
     #search{
         width: 65%;
     }
 }
-@media screen and (max-width:885px) {
+@media screen and (max-width:990px) {
     #search{
-        width: 60%;
+        width: 55%;
     }
 }
 @media screen and (max-width:770px) {
     #search{
-        width: 40%;
+        width: 35%;
     }
 }
 @media screen and (max-width:520px) {
     #search{
-        width: 30%;
+        width: 10%;
     }
 }
