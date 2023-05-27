@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+*{
+    padding: 0;
+}
+html{
+    font-size:14px;
+}
+body{
+    background-color: #000;
+    font-family: 'Lato', sans-serif;
+}
+.container{
+    margin: 20px 0;
+    width: 100%;
+}
+
+.toggle-container{
+    display: flex;
+    justify-content:space-between;
+}
+#search{
+    width: 70%;
+    outline: none;
+    color: #fff;
+    padding:2px 10px;
+    border: 1px solid #fff;
+    background-color: transparent;
+}
+#search[type="text"]::placeholder{
+    color: #fff;
+}
+.btn{
+    width: 200px;
+    cursor: pointer;
+    padding:10px;
+    outline:none;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+.table-container{
+    margin-top: 20px;
+    min-height: 500px;
+    overflow-x: scroll;
+}
+.table-container::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+.table-container::-webkit-scrollbar {
+    background-color: transparent;
+}
+table{
+    width: 100%;
+    border-collapse: collapse; 
+}
+img{
+    width: 30px;
+    height: 30px;
+}
+span{
+    margin-left:10px
+}
+td{
+    padding:20px 0 20px 10px;
+    text-align: right;
+    max-width: 600px;
+    white-space: nowrap;
+}
+td:nth-child(1){
+    padding:20px 0 !important;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+td:nth-child(2){
+    text-transform: uppercase;
+}
+tbody tr td{
+    color: #fff;
+}
+tbody tr{
+    border-bottom: 1px solid #fff;
+}
+@media screen and (max-width:1030px) {
+    #search{
+        width: 65%;
+    }
+}
+@media screen and (max-width:885px) {
+    #search{
+        width: 60%;
+    }
+}
+@media screen and (max-width:770px) {
+    #search{
+        width: 40%;
+    }
+}
+@media screen and (max-width:520px) {
+    #search{
+        width: 30%;
+    }
+}
