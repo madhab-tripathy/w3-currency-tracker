@@ -87,7 +87,7 @@ function filterData(value){
     fileredData = [];
 }
 // searching functionality added
-input.addEventListener('change', () => {
+input.addEventListener('input', () => {
     filterData(event.target.value);
 })
 
